@@ -1,4 +1,4 @@
-flask-template
+Flask Template
 ==============
 
-Skeleton template to build Flask projects off of
+Skeleton template to build Flask projects off of. God I'm so lazy.
