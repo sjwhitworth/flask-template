@@ -1,9 +1,23 @@
 <html>
   <head>
     <title>Flask Template</title>
+
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+
+    <script src="{{ url_for ('static', filename='js/basic.js') }}" type="text/javascript"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js" type="text/javascript"></script>
+
   </head>
 
-<body>
-  Hello, world.
-</body>
+	<body>
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span1">
+				  <h1>Hello, world.</h1>
+				  <p>This is a Flask template.</p>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
